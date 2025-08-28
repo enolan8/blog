@@ -31,7 +31,7 @@ module.exports = {
     date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || '日期',
     tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签',
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || '图标',
-    ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || '拓展' // 扩展字段，存放json-string，用于复杂业务
+    ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || '扩展' // 扩展字段，存放json-string，用于复杂业务
   },
   NOTION_ACTIVE_USER: process.env.NOTION_ACTIVE_USER || '',
   NOTION_TOKEN_V2: process.env.NOTION_TOKEN_V2 || '' // Useful if you prefer not to make your database public
